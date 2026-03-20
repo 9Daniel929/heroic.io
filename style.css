@@ -1,0 +1,17 @@
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.play-button::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 40px solid white;
+}
